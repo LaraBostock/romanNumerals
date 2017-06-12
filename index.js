@@ -1,4 +1,3 @@
-
 const numeralStrings = {  1:"I",
                           4:"IV",
                           5:"V",
@@ -119,7 +118,6 @@ function convertNumeral(numeral) {
       else {
         finalInt.push(integerStrings[currentChar]);
       }
-      console.log(finalInt);
     }
     else if (numeral.length == 1) {
       finalInt.push(integerStrings[currentChar]);
